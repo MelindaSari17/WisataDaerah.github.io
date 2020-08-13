@@ -1,0 +1,141 @@
+/*NAVIGATOR*/
+body{
+	background-image: url('images/awan.jpg');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	width: 1100px;
+	margin: auto;
+	background-color: #fffff0;
+}
+
+.header{
+	text-align: center;
+	border-bottom: 5px solid;
+	border-bottom-color: #4682b4;
+	background-color: whitesmoke;
+}
+
+.header img{
+	float: left;
+	width: 20%;
+	cursor: pointer;
+}
+
+.header ul{
+	padding-top: 50px;
+	float: right;
+	margin-right: 50px;
+	margin-left: 50px;
+}
+
+.header ul li{
+	padding-top: 25px;
+	padding-bottom: 22.2px;
+	display: inline-block;
+}
+
+.header a{
+	color: #333;
+	letter-spacing: 2px;
+	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 15px;
+	padding-bottom: 22.2px;
+	font-size: 18px;
+	font-family: bebas, san-serif;
+	transition: background-color 0.3s;
+}
+
+.header a:hover{
+	color: white;
+	background-color: #4682b4;
+}
+
+.active a{
+	color: #4682b4;
+}
+
+.header h4{
+	color: #4682b4;
+	font-family: "orator std", san-serif;
+	font-weight: bold;
+	text-align: left;
+	padding-top: 95px;
+	padding-left: 20px;
+}
+/*NAVIGATOR END*/
+
+
+	/*HALAMAN DESTINATION*/
+.content3{
+	padding-top: 50px;
+	padding-bottom: 80px;
+} 
+
+.content3 .box{
+	margin-left: 75px;
+	display: inline-block;
+	width: 35%;
+	padding: 25px;
+	font: 14px verdana, san-serif;
+	text-align: center;
+	box-shadow: 0px 1px 5px gray;
+}
+
+.content3 h3{
+	text-align: center;
+	letter-spacing: 2px;
+	background-color: wheat;
+	color: #333;
+	font-family: 'Lithos Pro Regular', san-serif;
+	font-weight: bold;
+	padding: 20px 0px 20px 40px;
+}
+
+.box b{
+	font-size: 20px;
+	font-family: bebas, san-serif;
+	letter-spacing: 2px;
+	color: #333;
+}
+
+.content3 .box br{
+	text-align: justify;
+	font: 13px verdana, san-serif;
+	color: #333;
+}
+
+.content3 .box img{
+	width: 100%;
+	border-radius: 15px;
+	padding: 12px 0px 12px 0px;
+}
+
+.box a{
+	font-weight: bold;
+	color: black;
+	text-align: right;
+	text-decoration: none;
+}
+
+.content3 .box:hover{
+	box-shadow: 0px 1px 15px gray;
+}
+
+.box a:hover{
+	color: blue;
+}
+
+/*FOOTER*/
+.footer{
+	text-align: center;
+	background-color: #4682b4;
+	padding-bottom: 25px;
+	color: #dcdcdc;
+}
+/*FOOTER END*/
